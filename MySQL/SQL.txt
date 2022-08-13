@@ -1,0 +1,80 @@
+°MySQL°
+origem - uso militar e academico, era guardado em papel.
+arquivos   - > tabelas - > armazerna arquivos.
+arquivos sequencias.
+
+banco de dados
+sistema adicional
+linguagem exploração
+programa adicionais
+
+dados rede inteligente -> relacioa de tabelas
+
+Linguagem DDL - criar um banco de dados - estruturas do dados
+Linguagem DML - manipulação
+Linguagem DQL solicitação(select)
+Linguagem DCL - o que o usuiario pode fazer
+Linguagem DtL - transações que pode ocorrer nas informações
+
+Durabilidade- permancer la
+isolamento -= nao pode ser interferir
+consistantencia - se tudo est certo antes, tem que permanecer certo
+atomacidade - tudo da certo ou nao
+
+banco de daods e o conjunto se tabelas
+tabelas - > caracteristacas semelhantes/registro
+registros -> campos 
+
+numero
+Inteiro -- TinyInt, SmallInt, Int, MediumInt, BigInt
+real -- Decimal, Float, Double, Real
+logico -- Bit, Boolean
+
+Data/tempo
+Date, dateTime, TimeStamp, Time, Year
+
+Literal
+Caractere -> char, varchar
+texto -> tinytext, text, mediumtext, longtext
+binario -> tinyblob, blob, mediumblob, longblob
+coleção -> Enum, set
+
+Espacial
+geometry, Point, polygon, multipolygon 
+
+
+default - serve para alto preenchimento.
+
+
+unique - dois curso com o mesmo mone
+unsigned - carga nao pode ser negativo e economia dados.
+
+limit serve para limitar a quantidade de linhas que poode ser afetada;
+
+
+
+
+°Relacionamento de tabelas de dados
+-relação entre dados 
+tabela e uma entidade que contem dados
+dados sao atributos.
+tendo chave primaria em sua atributos que identifica as duplas.
+
+diagrama E-R
+entidade e relacionamento entre tabelas
+
+
+cartinalidade - simples(1) ou multipla(n)
+
+chave primaria serva para indentificar 
+
+chave estranguera - primeria de alguma outra tabela
+
+1 - 1
+escolhe qual e o lado dominante 
+
+1 - n
+a chave estrangueira tem que ir para o n
+
+n - n
+cria uma tabela nova 
